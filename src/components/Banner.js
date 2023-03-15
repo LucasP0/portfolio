@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Desenvolvedor Front-End", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Desenvolvedor Front-End", "Web Designer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,10 +55,15 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Oi Meu Nome é Lucas`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <span className="tagline">Bem-Vindo ao meu Portfolio</span>
+                <h1>{`Meu Nome é Lucas e atualmente sou`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Desenvolvedor junior Front-end, com experiências em sites próprios. Iniciando minha jornada de desenvolvedor no ano de 2022, me demostro com grande afinidade pelas novas tecnlogias com que venho trabalhando. <br />
+
+                  Possuo foco em desenvovimento com Javascript, TypeScript, React, React Native e NodeJS, dentro outras tecnologias que se encontram de certa forma agregadas ao desenvolvedor Front-end.<br />
+
+                  Me considero ágil e com sede de conhecimento. Duas das minhas maiores qualidades que possa ressaltar são persistência e reconhecer meus limites, pois não consigo pedir ajuda sem tentar e reconheço quando preciso de ajuda.<br />
+                </p>
+                  <a href="https://wa.me/5591987346007" target="_blank" className="Whatsapp"><button onClick={() => console.log('connect')}>Whatsapp Profissional <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
