@@ -1,4 +1,4 @@
-import meter1 from "../assets/img/meter1.svg";
+import htmlImg from "../assets/img-skills/html.png";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
@@ -38,7 +38,7 @@ export const Skills = () => {
                         <p>Minhas Habilidades como desenvolvedor se baseia nas seguintes<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={htmlImg} alt="Image" />
                                 <h5>Front-End</h5>
                             </div>
                             <div className="item">
@@ -50,11 +50,15 @@ export const Skills = () => {
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Html/CSS</h5>
+                                <img src={htmlImg} alt="Image" />
+                                <h5>Html</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={htmlImg} alt="Image" />
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={htmlImg} alt="Image" />
                                 <h5>Node.js</h5>
                             </div>
                         </Carousel>
