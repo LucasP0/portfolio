@@ -38,27 +38,28 @@ export const Skills = () => {
                         <p>Minhas Habilidades como desenvolvedor se baseia nas seguintes<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={htmlImg} alt="Image" />
+                                <img src={htmlImg} alt="" />
                                 <h5>Front-End</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="JS" />
                                 <h5>JavasScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="React" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={htmlImg} alt="Image" />
+                                <img src={htmlImg} alt="HTML" />
                                 <h5>Html</h5>
+                                <h5>Pleno</h5>
                             </div>
                             <div className="item">
-                                <img src={htmlImg} alt="Image" />
+                                <img src={htmlImg} alt="css" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={htmlImg} alt="Image" />
+                                <img src={htmlImg} alt="Node.js" />
                                 <h5>Node.js</h5>
                             </div>
                         </Carousel>
