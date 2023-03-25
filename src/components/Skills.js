@@ -1,6 +1,6 @@
 import htmlImg from "../assets/img-skills/html.png";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import React from "../assets/img-skills/react-logo.png";
+import JS from "../assets/img-skills/js.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -37,21 +37,19 @@ export const Skills = () => {
                         <h2>Habilidades</h2>
                         <p>Minhas Habilidades como desenvolvedor se baseia nas seguintes<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={htmlImg} alt="" />
-                                <h5>Front-End</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="JS" />
-                                <h5>JavasScript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="React" />
+                        <div className="item">
+                                <img src={React} alt="React" />
                                 <h5>React</h5>
+                                <h5>Júnior</h5>
+                            </div>
+                            <div className="item">
+                                <img src={JS} alt="JS" />
+                                <h5>JavasScript</h5>
+                                <h5>Júnior</h5>
                             </div>
                             <div className="item">
                                 <img src={htmlImg} alt="HTML" />
-                                <h5>Html</h5>
+                                <h5>HTML</h5>
                                 <h5>Pleno</h5>
                             </div>
                             <div className="item">
