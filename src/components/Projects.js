@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img-project/img 21.png";
+import breve from "../assets/img-project/breve.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -11,34 +11,36 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Login",
+      description: "Pagina de Login com React",
       imgUrl: projImg1,
+      link: "https://incandescent-vacherin-5c77a3.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Em Breve",
+      description: "Novos sites virão",
+      imgUrl: breve,
+      link: "https://www.google.com/search?q=next.js+logo+png&&tbm=isch&ved=2ahUKEwik367hnP39AhXACbkGHXPWDDsQ2-cCegQIABAA&oq=next.js+logo+png&gs_lcp=CgNpbWcQAzIHCAAQgAQQEzoECCMQJzoGCAAQBxAeOgQIABAeOgcIABCKBRBDOgUIABCABDoGCAAQHhATOggIABAFEB4QE1CEBlikF2CQGGgAcAB4AIABpwGIAbETkgEEMC4xNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=iCEiZKT7GMCT5OUP86yz2AM&bih=476&biw=1095#imgrc=Lkw1ZDnp02nwqM",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Em Breve",
+      description: "Novos sites virão",
+      imgUrl: breve,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Em Breve",
+      description: "Novos sites virão",
+      imgUrl: breve,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Em Breve",
+      description: "Novos sites virão",
+      imgUrl: breve,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Em Breve",
+      description: "Novos sites virão",
+      imgUrl: breve,
     },
   ];
 
@@ -79,11 +81,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                       <h1 id="P-Next">Em breve mais projetos!!!</h1>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <h1 id="P-Next">Em breve mais projetos!!!</h1>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

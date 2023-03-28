@@ -1,6 +1,10 @@
 import htmlImg from "../assets/img-skills/html.png";
 import React from "../assets/img-skills/react-logo.png";
 import JS from "../assets/img-skills/js.png";
+import Css from "../assets/img-skills/css.png"
+import Node from "../assets/img-skills/node-js.png";
+import Next from "../assets/img-skills/next.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -53,12 +57,19 @@ export const Skills = () => {
                                 <h5>Pleno</h5>
                             </div>
                             <div className="item">
-                                <img src={htmlImg} alt="css" />
+                                <img src={Css} alt="css" />
                                 <h5>CSS</h5>
+                                <h5>Pleno</h5>
                             </div>
                             <div className="item">
-                                <img src={htmlImg} alt="Node.js" />
+                                <img src={Node} alt="Node.js" />
                                 <h5>Node.js</h5>
+                                <h5>Júnior</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Next} alt="Node.js" />
+                                <h5>Next.js</h5>
+                                <h5>Júnior</h5>
                             </div>
                         </Carousel>
                     </div>
