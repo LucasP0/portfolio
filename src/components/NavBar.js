@@ -54,12 +54,12 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/lucas-prestes-a59304253/" target="_blank"><img src={navIcon1} alt="linkDin" /></a>
                 <a href="https://www.facebook.com/lucasprestes.pestes/" target="_blank"><img src={navIcon2} alt="facebook" /></a>
-                <a href="https://www.instagram.com/lucasprestesprestes/?hl=pt-br"><img src={navIcon3} alt="insta" /></a>
+                <a href="https://www.instagram.com/lucasprestesprestes/?hl=pt-br" ><img src={navIcon3} alt="insta" /></a>
                 <a href="https://github.com/LucasP0" target="_blank"><img src={navIcon4} alt="GitHub"/></a>
               </div>
-              <HashLink to='#connect' className="">
-                <button className="vvd"><span>Entrar em Contato</span></button>
-              </HashLink>
+             
+                <a href="https://wa.me/5591987346007" target="_blank" ><button className="vvd"><span>Entrar em Contato</span></button></a>
+              
             </span>
           </Navbar.Collapse>
         </Container>
