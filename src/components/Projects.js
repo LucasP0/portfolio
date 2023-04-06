@@ -42,6 +42,7 @@ export const Projects = () => {
       description: "Novos sites virão",
       imgUrl: breve,
     },
+    
   ];
 
   return (

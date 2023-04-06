@@ -549,6 +549,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+/************* AboutMe inicio *************/
+#AboutMe {
+background-image: url(assets/img/space-1.jpg);
+background-size: cover;
+padding-bottom: 1.6rem;
+}
+
+
+h1#AboutMe {
+  text-align: center;
+  padding: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+section#sectionAboutMe {
+  display: flex;
+  display-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.2rem;
+}
+img#AboutMeImg {
+  width: 26rem;
+  padding: 1.2rem;
+}
+#A-P {
+  width: 43rem;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
 
 /************ Footer Css ************/
 .footer {
