@@ -57,13 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem-Vindo ao meu Portfolio</span>
                 <h1>{`Meu Nome é Lucas e atualmente sou`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Desenvolvedor junior Front-end, com experiências em sites próprios. Iniciando minha jornada de desenvolvedor no ano de 2022, me demostro com grande afinidade pelas novas tecnlogias com que venho trabalhando. <br />
-
-                  Possuo foco em desenvovimento com Javascript, TypeScript, React, React Native e NodeJS, dentro outras tecnologias que se encontram de certa forma agregadas ao desenvolvedor Front-end.<br />
-
-                  Me considero ágil e com sede de conhecimento. Duas das minhas maiores qualidades que possa ressaltar são persistência e reconhecer meus limites, pois não consigo pedir ajuda sem tentar e reconheço quando preciso de ajuda.<br />
-                </p>
-                  <a href="https://wa.me/5591987346007" target="_blank" className="Whatsapp"><button onClick={() => console.log('connect')}>Whatsapp Profissional <ArrowRightCircle size={25} /></button></a>
+                <a href="https://wa.me/5591987346007"   target="_blank" className="Whatsapp" rel="noreferrer"><button onClick={() => console.log('connect')}>Whatsapp Profissional <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
