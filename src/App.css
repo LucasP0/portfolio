@@ -158,12 +158,13 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 24px 34px;
   font-size: 18px;
-  margin-left: 18px;
+  margin-left: 2rem;
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+  border-radius: 0.25rem;
 }
 .navbar-text button span {
   z-index: 1;
@@ -552,7 +553,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************* AboutMe inicio *************/
 #AboutMe {
 background-image: url(assets/img/space-1.jpg);
-background-size: cover;
+background-size: container;
 padding-bottom: 1.6rem;
 }
 
