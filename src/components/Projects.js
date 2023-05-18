@@ -17,10 +17,10 @@ export const Projects = () => {
       link: "https://incandescent-vacherin-5c77a3.netlify.app/",
     },
     {
-      title: "Em Breve",
-      description: "Novos sites virão",
+      title: "Sidebar Menu",
+      description: "Responsive Sidebar Menu com JS",
       imgUrl: breve,
-      link: "https://www.google.com/search?q=next.js+logo+png&&tbm=isch&ved=2ahUKEwik367hnP39AhXACbkGHXPWDDsQ2-cCegQIABAA&oq=next.js+logo+png&gs_lcp=CgNpbWcQAzIHCAAQgAQQEzoECCMQJzoGCAAQBxAeOgQIABAeOgcIABCKBRBDOgUIABCABDoGCAAQHhATOggIABAFEB4QE1CEBlikF2CQGGgAcAB4AIABpwGIAbETkgEEMC4xNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=iCEiZKT7GMCT5OUP86yz2AM&bih=476&biw=1095#imgrc=Lkw1ZDnp02nwqM",
+      link: "https://lucasp0.github.io/Responsive-Siderbar-Menu/",
     },
     {
       title: "Em Breve",
