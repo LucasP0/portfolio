@@ -1,11 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img-project/img 21.png";
-import breve from "../assets/img-project/breve.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
+// IMPORTAÇÃO DE IMGS
+import projImg1 from "../assets/img-project/img 21.png";
+import breve from "../assets/img-project/breve.png";
+import Responsive from "../assets/img-project/Responsive-side-bar.png"
+import Agenda_Ts from "../assets/img-project/Agenda-Ts.png";
 
 export const Projects = () => {
 
@@ -18,14 +21,15 @@ export const Projects = () => {
     },
     {
       title: "Sidebar Menu",
-      description: "Responsive Sidebar Menu com JS",
-      imgUrl: breve,
+      description: "Responsive Sidebar Menu com JS + dark theme",
+      imgUrl: Responsive,
       link: "https://lucasp0.github.io/Responsive-Siderbar-Menu/",
     },
     {
-      title: "Em Breve",
-      description: "Novos sites virão",
-      imgUrl: breve,
+      title: "Agenda de Tarefas",
+      description: "Agenda com Ts + React",
+      imgUrl: Agenda_Ts,
+      link: "https://delightful-creponne-300ef8.netlify.app/",
     },
     {
       title: "Em Breve",

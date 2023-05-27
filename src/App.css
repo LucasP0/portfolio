@@ -595,6 +595,7 @@ img#AboutMeImg {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 2rem;
 }
 .newsletter-bx {
   background: #FFFFFF;
