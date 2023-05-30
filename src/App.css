@@ -552,24 +552,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /************* AboutMe inicio *************/
 #AboutMe {
-background-image: url(assets/img/space-1.jpg);
-background-size: container;
-padding-bottom: 1.6rem;
-}
+  background: #130014;  
+  padding-bottom: 1.6rem;
 
+}
 
 h1#AboutMe {
   text-align: center;
   padding: 1.2rem;
-  margin-bottom: 1.6rem;
 }
 
 section#sectionAboutMe {
   display: flex;
   display-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   gap: 0.2rem;
+  height: 45rem;
 }
 img#AboutMeImg {
   width: 26rem;

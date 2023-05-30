@@ -5,7 +5,6 @@ export const AboutMe = () => {
     <div id="AboutMe">
       <h1 id="AboutMe">Um Pouco Sobre Mim</h1>
       <section id="sectionAboutMe">
-        <img id="AboutMeImg" src={img1}/>
         <p id="A-P">
           Desenvolvedor junior Front-end, com experiências em sites próprios. Iniciando minha jornada de desenvolvedor no ano de 2022, me demostro com grande afinidade pelas novas tecnlogias com que venho trabalhando. <br />
 
