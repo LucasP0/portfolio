@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 
 // IMPORTAÇÃO DE IMGS
 
-import { projects } from "./FetchProjects";
+import { projects } from "../data/FetchProjects";
 
 export const Projects = () => {
   return (

@@ -4,8 +4,16 @@ import Responsive from "../assets/img-project/Responsive-side-bar.png"
 import Agenda_Ts from "../assets/img-project/Agenda-Ts.png";
 import blog from "../assets/img-project/blog.png";
 import Next_Tailwind from "../assets/img-project/Estilização com Tailwind.png";
+import e_commerce from "../assets/img-project/e-commerce.png";
+
 
 export const projects = [
+  {
+    title: "E-commerce",
+    description: "e-commerce completo com carrinho, login, axios, tailwind e muito mais....",
+    imgUrl: e_commerce,
+    link: "https://e-commerce-lucaspretes.netlify.app/"
+  },
   {
     title: "Blog React",
     description: "Blog completo, com API local, utilizando tailwind",
