@@ -666,3 +666,7 @@ img#AboutMeImg {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.pointer{
+  cursor: pointer;
+}

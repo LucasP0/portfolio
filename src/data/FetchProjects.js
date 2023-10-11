@@ -54,5 +54,5 @@ export const projects = [
     description: "Novos sites virão",
     imgUrl: breve,
   },
-  
+
 ];
