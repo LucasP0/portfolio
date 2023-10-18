@@ -559,7 +559,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 h1#AboutMe {
   text-align: center;
-  padding: 1.2rem;
+  font-size: 3.0rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-top: 4rem;
+  display: block;
 }
 
 section#sectionAboutMe {
