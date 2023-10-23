@@ -88,8 +88,21 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
+  height: 100px;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+}
+.a_cont {
+  text-decoration: none;
+}
+.vvd {
+  height: 10px;
+  display: flex;
+  align-items: center; 
+}
+
+.img_nav {
+  width: 80px;
 }
 nav.navbar.scrolled {
   padding: 0px 0;

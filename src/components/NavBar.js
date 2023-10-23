@@ -39,7 +39,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img className="img_nav" src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -55,11 +55,15 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/lucas-prestes-a59304253/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkDin" /></a>
                 <a href="https://www.facebook.com/lucasprestes.pestes/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
                 <a href="https://www.instagram.com/lucasprestesprestes/?hl=pt-br" ><img src={navIcon3} alt="insta" /></a>
-                <a href="https://github.com/LucasP0" target="_blank" rel="noreferrer"><img src={navIcon4} alt="GitHub"/></a>
+                <a href="https://github.com/LucasP0" target="_blank" rel="noreferrer"><img src={navIcon4} alt="GitHub" /></a>
               </div>
-             
-                <a href="https://wa.me/5591987346007" target="_blank" rel="noreferrer" ><button className="vvd"><span>Entrar em Contato</span></button></a>
-              
+
+              <a href="https://wa.me/5591987346007" target="_blank" rel="noreferrer" className="a_cont">
+                <button className="vvd">
+                  <span>Entrar em Contato</span>
+                </button>
+              </a>
+
             </span>
           </Navbar.Collapse>
         </Container>
