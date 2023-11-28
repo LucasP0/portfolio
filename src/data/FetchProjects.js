@@ -5,14 +5,20 @@ import Agenda_Ts from "../assets/img-project/Agenda-Ts.png";
 import blog from "../assets/img-project/blog.png";
 import Next_Tailwind from "../assets/img-project/Estilização com Tailwind.png";
 import e_commerce from "../assets/img-project/e-commerce.png";
-
+import gym_image from "../assets/img-project/gym_responsive.png";
 
 export const projects = [
   {
-    title: "E-commerce",
+    title: "E-commerce_react",
     description: "e-commerce completo com carrinho, login, axios, tailwind e muito mais....",
     imgUrl: e_commerce,
     link: "https://e-commerce-lucaspretes.netlify.app/"
+  },
+  {
+    title: "Gym_react_vite",
+    description: "Ladin page com API de css e envio de email",
+    imgUrl: gym_image,
+    link: "https://portifolio-gym.netlify.app/"
   },
   {
     title: "Blog React",
@@ -22,7 +28,7 @@ export const projects = [
   },
   {
     title: "Login",
-    description: "Pagina de Login com React",
+    description: "Lading page de Login com React",
     imgUrl: projImg1,
     link: "https://incandescent-vacherin-5c77a3.netlify.app/",
   },
